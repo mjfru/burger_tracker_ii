@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+}
+
+#form-container {
+	width: 30%;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+h1, h2 {
+	color:#0e5796;
+}
+
+.string-input {
+	width: 80%;
+}
+
+.number-input {
+	width: 10%;
+}
+
+#submit-button {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 80%;
+	margin-top: 20px;
+}
+
+.error-message {
+	color: red;
+}
